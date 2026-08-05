@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
-import { asciiData } from "../assets/asciiData";
-
+//import { asciiData } from "../../public/assets/asciiData";
+import profileImage from "../assets/ProfileCut.png";
 // Module-level cache to persist between remounts
 const memoryCache = {};
 
@@ -61,7 +61,7 @@ const AsciiPortrait = () => {
     offscreen.width = canvasWidth;
     offscreen.height = canvasHeight;
 
-    const scale = 0.8;
+    const scale = 1;
     const imgAspect = img.width / img.height;
 
     let drawHeight = canvasHeight * scale;
@@ -109,37 +109,36 @@ const AsciiPortrait = () => {
     return rawParticles;
   };
 
+///updated wala code
+
   useEffect(() => {
-    const isMobileSize = size <= 280;
-    
-    // 1. Check pre-calculated static data
-    if (asciiData[size]) {
-      particlesRef.current = createParticlesFromRaw(asciiData[size], isMobileSize);
-      setDataReady(true);
-      startTimeRef.current = performance.now();
-      return;
-    }
+  const isMobileSize = size <= 280;
 
-    // 2. Check memory cache
-    if (memoryCache[size]) {
-      particlesRef.current = createParticlesFromRaw(memoryCache[size], isMobileSize);
-      setDataReady(true);
-      startTimeRef.current = performance.now();
-      return;
-    }
+  setDataReady(false);
+  particlesRef.current = [];
 
-    // 3. Fallback to image processing
-    const img = new Image();
-    img.crossOrigin = "Anonymous";
-    img.src = "/profile.png";
-    img.onload = () => {
-      const raw = processImage(img, size);
-      memoryCache[size] = raw;
-      particlesRef.current = createParticlesFromRaw(raw, isMobileSize);
-      setDataReady(true);
-      startTimeRef.current = performance.now();
-    };
-  }, [size]);
+  const img = new Image();
+
+  img.onload = () => {
+    const rawParticles = processImage(img, size);
+
+    particlesRef.current = createParticlesFromRaw(
+      rawParticles,
+      isMobileSize
+    );
+
+    startTimeRef.current = performance.now();
+    setDataReady(true);
+  };
+
+  img.onerror = () => {
+    console.error("Could not load portrait image:", profileImage);
+  };
+
+  img.src = profileImage;
+}, [size]);
+
+//
 
   useEffect(() => {
     const canvas = canvasRef.current;

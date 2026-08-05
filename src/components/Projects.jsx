@@ -6,65 +6,61 @@ import { Carousel } from "react-bootstrap";
 import ExternalLinks from "./ExternalLinks";
 
 const spotlightProjects = {
-  Blob: {
-    title: "blob",
-    desc: "A Portal 2-inspired 3D puzzle platformer with a split mechanic built in Unity",
-    techStack: "C# (UNITY)",
-    link: "https://github.com/gazijarin/Blob",
-    image: "/assets/blob.png",
+  "Tijarat Creative": {
+    title: "Tijarat Creative",
+    desc: "A multi-service platform, where we deal with branding, product placement, business modelling and strategic marketing",
+    Place: "Hyderabad City",
+    link: "https://www.linkedin.com/company/tijarat-creative",
+    image: "/assets/TijaratC.png",
   },
-  "No Man's Land": {
-    title: "no man's land",
-    desc: "A third-person survival-mode game where you battle against time and space to return to Earth.",
-    techStack: "C# (UNITY)",
-    link: "https://github.com/slakh96/no-mans-land",
-    open: "https://gazijarin.itch.io/no-mans-land",
-    image: "/assets/nomansland.png",
+  "CiviX": {
+    title: "CiviX",
+    desc: "An AI powered civic isuues solving app. Social feed type format for connectivity and relateability. Includes citizen and authority both dashboards",
+    techStack: "Dart, Html, C++, JavaS, CMake, Swift",
+    link: "https://github.com/XSHOAIB/CiviX",
+    image: "/assets/civixp.png",
   },
-  "Tall Tales": {
-    title: "tall tales",
-    desc: "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-    techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-    link: "https://github.com/gazijarin/TallTales",
-    open: "https://talltales.herokuapp.com/",
-    image: "/assets/talltales.png",
+  "Hang-Man": {
+    title: "Hang-Man",
+    desc: "A word guessing game, every word starts with 'a' and you gotta guess the rest letters. if you got it wrong, the man will be hung",
+    techStack: "Python",
+    link: "https://github.com/XSHOAIB/HangMan-Game",
+    image: "/assets/HangMan.png",
   },
-  Portfolio: {
-    title: "portfolio.js",
-    desc: "A small JS library that helps with clear and succinct data presentation.",
-    techStack: "NODE.JS (EXPRESS.JS)",
-    link: "https://github.com/gazijarin/Portfolio.js",
-    open: "https://afternoon-ocean-92382.herokuapp.com/",
-    image: "/assets/portfolio.png",
+  "Spide-Bot": {
+    title: "Spider-Bot",
+    desc: "A Robot which can move x,y,z-axix, with creating a cool robotic sound with its 12 servo motors. Oh, it also dances like a spider..",
+    techStack: "Arduino IDE",
+    link: "https://github.com/XSHOAIB/Spider-Bot",
+    image: "/assets/3.png",
   },
+  //  Portfolio: {
+  //   title: "portfolio.js",
+  //   desc: "A small JS library that helps with clear and succinct data presentation.",
+  //   techStack: "NODE.JS (EXPRESS.JS)",
+  //   link: "https://github.com/gazijarin/Portfolio.js",
+  //   open: "https://afternoon-ocean-92382.herokuapp.com/",
+  //   image: "/assets/portfolio.png",
+  // },
 };
 
 const projects = {
-  "Gazi-V2 Portfolio": {
-    desc: "This is the second iteration of my portfolio, designed and rebuilt from the ground up using React and Vite. The previous version, now deprecated, earned 288+ stars on GitHub.",
-    techStack: "React.js, Vite, Bootstrap",
-    link: "https://github.com/gazijarin/Gazi-V2",
-    open: "https://gazijarin.com/",
+  "Shoaib Portfolio v2": {
+    desc: "This is the second iteration of my portfolio, designed and rebuilt from the ground up using React and Vite. The code is available on GitHub.",
+    techStack: "React.js, Vite, Inspired",
+    link: "https://github.com/XSHOAIB/Shoaib-Portfolio-V2",
+    open: "", //website link
   },
-  "TDSB Homework Management Interface": {
-    desc: "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-    techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-    link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-    open: "https://tdsb-app.herokuapp.com/",
+  "Jug Game": {
+    desc: "Basically you have two jugs one with 4 litre capacity and another with 3 litre capacity. You can either fill the whole jug with water or you can transfer one jug water to another.",
+    techStack: "Python",
+    link: "https://github.com/XSHOAIB/Jug-Game-",
   },
-  "Adam A.I.": {
-    desc: "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-    techStack: "Javascript, HTML / CSS",
-    link: "https://github.com/gazijarin/adamai",
-    open: "https://gazijarin.github.io/AdamAI/",
+  "Portfolio v1": {
+    desc: "This was my first ever portfolio, parallely full static website.",
+    techStack: "CSS, Html",
+    link: "https://github.com/XSHOAIB/Shoaib-Portfolio",
   },
-  /*
-  "Distributed Logging and Monitoring System": {
-    desc: "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-    techStack: "Node.js (Express.js), React.js, PostgreSQL",
-    link: "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System",
-  },
-  */
 };
 
 const Projects = () => {
@@ -73,7 +69,7 @@ const Projects = () => {
       <div className="section-header ">
         <span className="section-title">/ software</span>
         <a
-          href="https://github.com/gazijarin"
+          href="https://github.com/XSHOAIB"
           className="explore-link"
           target="_blank"
           rel="noopener noreferrer"

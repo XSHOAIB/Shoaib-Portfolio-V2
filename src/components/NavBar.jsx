@@ -37,7 +37,7 @@ const NavBar = () => {
       onToggle={(isExpanded) => setExpanded(isExpanded)}
     >
       <Container>
-        <Navbar.Brand href="/">Gazi Jarin</Navbar.Brand>
+        <Navbar.Brand href="/">MD Shoaib Ahmed</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" onSelect={() => setExpanded(false)}>
@@ -49,19 +49,19 @@ const NavBar = () => {
             <Nav.Link href="/#art">Art</Nav.Link>
           </Nav>
           <Nav className="ms-auto" onSelect={() => setExpanded(false)}>
-            <Nav.Link href="mailto:gazijarin@gmail.com">
+            <Nav.Link href="mailto:hashtagshoaib@gmail.com">
               <EmailRoundedIcon style={{ fontSize: 20 }} />
             </Nav.Link>
-            <Nav.Link href="https://github.com/gazijarin" target="_blank">
+            <Nav.Link href="https://github.com/XSHOAIB" target="_blank">
               <GitHubIcon style={{ fontSize: 19 }} />
             </Nav.Link>
             <Nav.Link
-              href="https://www.linkedin.com/in/gazijarin/"
+              href="https://www.linkedin.com/in/xshoaib/"
               target="_blank"
             >
               <LinkedInIcon style={{ fontSize: 21 }} />
             </Nav.Link>
-            <Nav.Link href="https://medium.com/@gazijarin.ai" target="_blank">
+            <Nav.Link href="https://instagram.com/the.shoaibahmed" target="_blank">
               <BorderColorIcon style={{ fontSize: 20 }} />
             </Nav.Link>
           </Nav>

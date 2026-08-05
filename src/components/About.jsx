@@ -5,26 +5,26 @@ import FadeInSection from "./FadeInSection";
 const About = () => {
   const one = (
     <p>
-      I am currently a <b>Software Engineer</b> at
-      <a href="https://www.ads.google.com/"> Google</a>, where I help build
-      autobidder models that make Google Search money. Previously, I was at{" "}
-      <a href="https://www.aboutamazon.com/"> Amazon</a> and{" "}
-      <a href="https://newsroom.pinterest.com/company/"> Pinterest.</a>
+      I'm currently the <b>Digital Head</b> at
+      <a href="https://www.linkedin.com/company/tijarat-creative"> Tijarat Creative</a>, where I help 
+      brands build business models that make clients money. Parallelly, I work 
+      across both {" "}<a href=""> Tech</a> and{" "}<a href=""> Business.</a>
     </p>
   );
   const two = (
     <p>
-      In my free time, I’m nerdy about tech gadgets, love literary fiction, and
-      play way too many battle royale games. Oh, I make content too.
+      In my free time, I’m nerdy about tech gadgets, ride my classic 350, and
+      chill with firends. Oh, I make content too.
     </p>
   );
 
   const techStack = [
     "Python",
-    "Typescript",
-    "React.js",
-    "Java",
-    "Javascript ES6+",
+    "AWS",
+    "MySQL",
+    "AI Tools",
+    "Cloud",
+    "Automation",
   ];
 
   return (
@@ -47,7 +47,7 @@ const About = () => {
             {two}
           </div>
           <div className="about-image">
-            <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+            <img alt="MD Shoaib Ahmed" src={"/assets/me4.jpeg"} />
           </div>
         </div>
       </FadeInSection>

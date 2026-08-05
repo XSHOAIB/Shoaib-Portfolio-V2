@@ -23,7 +23,7 @@ const Art = () => {
       </div>
       <FadeInSection delay="200ms">
         <div className="art-description">
-          A collection of my digital and traditional artwork, exploring different styles and mediums.
+          A collection of my digital and drawing artwork, exploring different frames and pixels.
         </div>
       </FadeInSection>
       <div className="art-container">
