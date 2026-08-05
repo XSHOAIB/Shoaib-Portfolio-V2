@@ -8,7 +8,7 @@ const Credits = () => {
       <div id="credits">
         <div className="ending-credits">
           <div>Built and designed by MD Shoaib Ahmed. </div>
-          <div>Inspired by GaziJarin</div>
+          <p style={{fontSize: '8px'}}>Inspired by GaziJarin</p>
           <div>All rights reserved. ©</div>
         </div>
       </div>
