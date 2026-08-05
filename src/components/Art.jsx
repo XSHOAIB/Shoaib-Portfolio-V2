@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 const Art = () => {
   const topArt = [
-    { src: "/assets/art/fishy.jpg", title: "fish" },
-    { src: "/assets/art/dali.jpg", title: "dali" },
-    { src: "/assets/art/japan.jpg", title: "japan" },
-    { src: "/assets/art/space.jpg", title: "space" },
-    { src: "/assets/art/11th_grade.jpg", title: "11th grade" },
-    { src: "/assets/art/cordyceps.jpg", title: "cordyceps" }
+    { src: "/assets/art2/9.jpg", title: "9" },
+    { src: "/assets/art2/10.jpg", title: "10" },
+    { src: "/assets/art2/14.jpg", title: "14" },
+    { src: "/assets/art2/4.jpg", title: "4" },
+    { src: "/assets/art2/6.jpg", title: "6" },
+    { src: "/assets/art2/15.jpg", title: "15" }
   ];
 
   return (

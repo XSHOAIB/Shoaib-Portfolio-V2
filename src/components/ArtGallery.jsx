@@ -6,23 +6,22 @@ import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 
 const ArtGallery = () => {
   const allArt = [
-    { src: "/assets/art/11th_grade.jpg", title: "11th grade" },
-    { src: "/assets/art/anatomy.jpg", title: "anatomy" },
-    { src: "/assets/art/animal.jpg", title: "animal" },
-    { src: "/assets/art/cordyceps.jpg", title: "cordyceps" },
-    { src: "/assets/art/dali.jpg", title: "dali" },
-    { src: "/assets/art/dna.jpg", title: "dna" },
-    { src: "/assets/art/elephant.jpg", title: "elephant" },
-    { src: "/assets/art/fetus.jpg", title: "fetus" },
-    { src: "/assets/art/fishy.jpg", title: "fish" },
-    { src: "/assets/art/hands.jpg", title: "hands" },
-    { src: "/assets/art/japan.jpg", title: "japan" },
-    { src: "/assets/art/monolith.jpg", title: "monolith" },
-    { src: "/assets/art/narcissus.jpg", title: "narcissus" },
-    { src: "/assets/art/recursion.jpg", title: "recursion" },
-    { src: "/assets/art/sachiel.jpg", title: "sachiel" },
-    { src: "/assets/art/shoelaces.jpg", title: "shoelaces" },
-    { src: "/assets/art/space.jpg", title: "space" }
+    { src: "/assets/art2/1.jpg", title: "1" },
+    { src: "/assets/art2/2.jpg", title: "2" },
+    { src: "/assets/art2/9.jpg", title: "3" },
+    { src: "/assets/art2/4.jpg", title: "4" },
+    { src: "/assets/art2/5.jpg", title: "5" },
+    { src: "/assets/art2/6.jpg", title: "6" },
+    { src: "/assets/art2/7.jpg", title: "7" },
+    { src: "/assets/art2/8.jpg", title: "8" },
+    { src: "/assets/art2/3.jpg", title: "9" },
+    { src: "/assets/art2/10.jpg", title: "10" },
+    { src: "/assets/art2/11.jpg", title: "11" },
+    { src: "/assets/art2/15.jpg", title: "12" },
+    { src: "/assets/art2/16.jpg", title: "13" },
+    { src: "/assets/art2/14.jpg", title: "14" },
+    { src: "/assets/art2/11.jpg", title: "15" },
+    { src: "/assets/art2/12.jpg", title: "16" },
   ];
 
   return (
