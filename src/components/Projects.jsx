@@ -5,12 +5,14 @@ import FadeInSection from "./FadeInSection";
 import { Carousel } from "react-bootstrap";
 import ExternalLinks from "./ExternalLinks";
 
+
 const spotlightProjects = {
   "Tijarat Creative": {
     title: "Tijarat Creative",
     desc: "A multi-service platform, where we deal with branding, product placement, business modelling and strategic marketing",
     Place: "Hyderabad City",
     link: "https://www.linkedin.com/company/tijarat-creative",
+    image: `${import.meta.env.BASE_URL}assets/TijaratC.png`,
     image: "/assets/TijaratC.png",
   },
   "CiviX": {
