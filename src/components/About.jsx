@@ -47,7 +47,7 @@ const About = () => {
             {two}
           </div>
           <div className="about-image">
-            <img alt="MD Shoaib Ahmed" src={"/assets/me4.jpeg"} />
+            {/* <img alt="MD Shoaib Ahmed" src={"/assets/me4.jpeg"} /> */}
             <img
                 alt="MD Shoaib Ahmed"
                 src={`${import.meta.env.BASE_URL}assets/me4.jpeg`}

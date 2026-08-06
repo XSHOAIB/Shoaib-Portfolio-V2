@@ -13,7 +13,7 @@ const spotlightProjects = {
     Place: "Hyderabad City",
     link: "https://www.linkedin.com/company/tijarat-creative",
     image: `${import.meta.env.BASE_URL}assets/TijaratC.png`,
-    image: "/assets/TijaratC.png",
+    // image: "/assets/TijaratC.png",
   },
   "CiviX": {
     title: "CiviX",
