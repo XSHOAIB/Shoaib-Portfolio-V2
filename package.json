@@ -1,7 +1,7 @@
 {
-  "name": "shoaib-v2",
-  "private": true,
-  "version": "0.0.0",
+  "homepage": "https://xshoaib.github.io/Shoaib-Portfolio-V2",
+  "name": "shoaib-portfolio-v2",  "private": true,
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

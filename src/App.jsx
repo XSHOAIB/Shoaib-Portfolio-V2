@@ -17,6 +17,7 @@ import "./App.css";
 import "./styles/Global.css";
 import "./styles/RobotGame.css";
 
+
 function App() {
   const { pathname } = useLocation();
   const [gameActive, setGameActive] = useState(false);
