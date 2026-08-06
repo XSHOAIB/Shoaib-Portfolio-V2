@@ -2,15 +2,16 @@ import React from "react";
 import "../styles/Art.css";
 import FadeInSection from "./FadeInSection";
 import { Link } from "react-router-dom";
+import { publicAsset } from "../utils/publicAsset";
 
 const Art = () => {
   const topArt = [
-    { src: "/assets/art2/9.jpg", title: "9" },
-    { src: "/assets/art2/10.jpg", title: "10" },
-    { src: "/assets/art2/14.jpg", title: "14" },
-    { src: "/assets/art2/4.jpg", title: "4" },
-    { src: "/assets/art2/6.jpg", title: "6" },
-    { src: "/assets/art2/15.jpg", title: "15" }
+    { src: publicAsset("/assets/art2/9.jpg"), title: "9" },
+    { src: publicAsset("/assets/art2/10.jpg"), title: "10" },
+    { src: publicAsset("/assets/art2/14.jpg"), title: "14" },
+    { src: publicAsset("/assets/art2/4.jpg"), title: "4" },
+    { src: publicAsset("/assets/art2/6.jpg"), title: "6" },
+    { src: publicAsset("/assets/art2/15.jpg"), title: "15" }
   ];
 
   return (

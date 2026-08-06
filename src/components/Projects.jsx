@@ -4,6 +4,7 @@ import FolderOpenRoundedIcon from "@mui/icons-material/FolderOpenRounded";
 import FadeInSection from "./FadeInSection";
 import { Carousel } from "react-bootstrap";
 import ExternalLinks from "./ExternalLinks";
+import { publicAsset } from "../utils/publicAsset";
 
 
 const spotlightProjects = {
@@ -12,29 +13,29 @@ const spotlightProjects = {
     desc: "A multi-service platform, where we deal with branding, product placement, business modelling and strategic marketing",
     Place: "Hyderabad City",
     link: "https://www.linkedin.com/company/tijarat-creative",
-    image: `${import.meta.env.BASE_URL}assets/TijaratC.png`,
-    // image: "/assets/TijaratC.png",
+    image: publicAsset("/assets/TijaratC.png"),
+    image: "/assets/TijaratC.png",
   },
   "CiviX": {
     title: "CiviX",
     desc: "An AI powered civic isuues solving app. Social feed type format for connectivity and relateability. Includes citizen and authority both dashboards",
     techStack: "Dart, Html, C++, JavaS, CMake, Swift",
     link: "https://github.com/XSHOAIB/CiviX",
-    image: "/assets/civixp.png",
+    image: publicAsset("/assets/civixp.png"),
   },
   "Hang-Man": {
     title: "Hang-Man",
     desc: "A word guessing game, every word starts with 'a' and you gotta guess the rest letters. if you got it wrong, the man will be hung",
     techStack: "Python",
     link: "https://github.com/XSHOAIB/HangMan-Game",
-    image: "/assets/HangMan.png",
+    image: publicAsset("/assets/HangMan.png"),
   },
   "Spide-Bot": {
     title: "Spider-Bot",
     desc: "A Robot which can move x,y,z-axix, with creating a cool robotic sound with its 12 servo motors. Oh, it also dances like a spider..",
     techStack: "Arduino IDE",
     link: "https://github.com/XSHOAIB/Spider-Bot",
-    image: "/assets/3.png",
+    image: publicAsset("/assets/3.png"),
   },
   //  Portfolio: {
   //   title: "portfolio.js",
